@@ -1,0 +1,64 @@
+
+    .lista{
+        color:red
+    }
+    .lista2{
+        color:peru
+    }
+    .lista3{
+        color:red
+    }
+.tituh5 {
+color: rgb(255, 219, 14);
+border: 5px rgba(168, 24, 24, 0.651) outset;
+background-color: rgba(70, 104, 128, 0.6);
+border-radius: 2px;
+text-align: center;
+}
+#arriba{
+    color: antiquewhite;
+    text-align: center; 
+    background-color: burlywood;
+    background-image: url(canbe.jpg);/*Con esto pongo una imagen de fondo*/
+    background-size: 1200px 800px; /*tamaño de img de fondo primer valor el ancho y segundo el alto de imgagen.
+    Tambien podemos usar las opciones de auto(no sirve mucho), o
+    Contain: Esta propiedad escala la imagen de forma que mantenga las proporciones y ocupa o el alto 
+    o el ancho (dependiendo de la proporción)
+    Cover:Esta propiedad escala la imagen al mínimo tamaño, manteniendo también las proporciones, 
+    para que ocupe todo el contenedor. Es posible que esto provoque que parte de la imagen no se vea. 
+    (Esta es la mejor opcion para distintas pantallas).
+    */
+    border-style: solid;/*tipo de borde del titulo o imagen*/
+    border-color:blue;
+    border-radius: 10px;/*esto es para redondear los bordes de los recuadros*/
+    height: 600px;
+    background-repeat: no-repeat;   /*es repetir imagen en X en Y o no-repeat*/
+    background-position: center center;/*donde va la imagen en X(left - center - right) e Y (top - center - bottom) */
+    /*SI QUIERO PONER TODAS LAS PROPIEDADES DE BACKGROUND EN UNA SOLA LINEA PUEDO PONER
+    background: y aca poner todas las propiedades que quiera y al final ;
+    por Ej: background: #f00 url("canbe.png") repeat-y center top; pero no es lo mas recomendable
+    */
+}
+.titu2{
+    color: rgb(202, 55, 19);
+    text-align: center; 
+    background-color: rgb(200, 233, 13);
+    background-size: 400px 400px;
+    border-style: solid;
+    border-color:rgb(255, 0, 221);
+    border-radius: 10px;
+}
+.margen{
+    background-color: rgb(46, 191, 235);
+    border-style: solid;
+    border:rgb(255, 153, 0) solid 15px;/*Podemos agregar varias propiedades juntas para tener menos lineas*/
+    text-align: center;
+    margin: 20px 20px 80px 20px; /* El 1ro margen top, 2do right, 3ro button y 4to left*/
+    padding: 20px 80px 20px 20px; /*este tiene las pismas propiedades de px que el anterior pero son px de adentro de elemento*/
+    /*margen= borde externo / padding= borde interno*  y si ponemos un solo valor en vez de los 4 ese valor va a
+    ser el mismo para los cuatro valores*/
+
+}
+.titulos3{
+    color: rgb(14, 223, 108);
+}
